@@ -12,5 +12,6 @@ int main(){
     middlewares.push_back(logRequest);
 
     pokreniServer(8081);
+    
     return 0;
 }
